@@ -1,0 +1,18 @@
+{
+  "name": "learn-babel",
+  "version": "1.0.0",
+  "description": "learn babel step by step",
+  "main": "index.js",
+  "scripts": {
+    "compiler": "babel src --out-dir lib --watch"
+  },
+  "repository": "https://github.com/soloPhone/learn-babel.git",
+  "author": "solophone <solophone@aliyun.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-transform-arrow-functions": "^7.7.4"
+  }
+}
